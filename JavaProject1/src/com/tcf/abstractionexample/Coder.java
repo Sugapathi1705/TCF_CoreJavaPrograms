@@ -1,5 +1,8 @@
 package com.tcf.abstractionexample;
 
-public class Coder {
+public abstract class Coder {
+	protected String wakeuptime="5AM";
+	abstract public void practices();
+	
 
 }
